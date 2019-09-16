@@ -1,0 +1,55 @@
+.image{
+    background-image: url(../img/1.jpg);
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.363);
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.separador::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-image: url(../img/divider.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 20px auto 0 auto;
+}
+
+
+.fondo2{
+    background-image: url(../img/fondo2.jpg);
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.712);
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Estilos de las card */
+.bg-text-card{
+    background-color: rgb(77, 73, 73);
+    color: white;
+    border-radius: 30%;
+    padding: 3px;
+}
+
+.bg-text-card:hover{
+    color: white;
+}
+
+.fondo-card{
+    background-color: rgb(7, 32, 33);
+}
+
+/* Estilo de los iconos */
+.icon{
+    color: rgb(28, 189, 155);
+}
