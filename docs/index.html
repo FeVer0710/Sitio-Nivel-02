@@ -18,28 +18,34 @@
 </head>
 
 <body>
+    sticky-top justify-content-end
 
     <header class="header image d-flex justify-content-center align-items-center">
         <h1 class="text-white text-center text-uppercase">Bienvenidos a mi sitio web</h1>
     </header>
     <nav class="navbar navbar-expand-lg navbar-light bg-info sticky-top">
-        <nav class="navbar navbar-light">
-            <img src="img/domain.png" width="20%">
+        <nav class="navbar navbar-light bg-info">
+            <a class="navbar-brand" href="#">
+                <img src="img/domain.png" width="20%">
+            </a>
         </nav>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item ">
-                    <a class="nav-link" href="#">Home</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
                 </li>
             </ul>
         </div>
@@ -67,32 +73,36 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 my-2 order-lg-0 order-md-3">
                     <div class="card p-3">
                         <img src="img/clock.png" class="img-fluid">
-                            <h2>Lorem.</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis delectus dolor dolorum eos debitis.</p>
+                        <h2>Lorem.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis delectus dolor dolorum
+                            eos debitis.</p>
                         <a href="#" class="btn btn-primary">Saber más</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 my-2 order-lg-1 order-md-2">
                     <div class="card p-3">
                         <img src="img/laptop.png" class="img-fluid">
-                            <h2>Lorem.</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis delectus dolor dolorum eos debitis.</p>
+                        <h2>Lorem.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis delectus dolor dolorum
+                            eos debitis.</p>
                         <a href="#" class="btn btn-primary">Saber más</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 my-2 order-lg-2 order-md-1">
                     <div class="card p-3">
                         <img src="img/mouse.png" class="img-fluid">
-                            <h2>Lorem.</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis delectus dolor dolorum eos debitis.</p>
+                        <h2>Lorem.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis delectus dolor dolorum
+                            eos debitis.</p>
                         <a href="#" class="btn btn-primary">Saber más</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 my-2 order-lg-3 order-md-0">
                     <div class="card p-3">
                         <img src="img/usb.png" class="img-fluid">
-                            <h2>Lorem.</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis delectus dolor dolorum eos debitis.</p>
+                        <h2>Lorem.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis delectus dolor dolorum
+                            eos debitis.</p>
                         <a href="#" class="btn btn-primary">Saber más</a>
                     </div>
                 </div>
@@ -104,7 +114,7 @@
                 fuertes, o los más grandes. Se trata de ser nosotros mismos. <i class="fas fa-quote-right"></i></h4>
         </section>
 
-        <section class="container-fluid bg-dark">
+        <section class="container-fluid bg-danger">
             <div class="row text-white p-5">
                 <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-none d-lg-block">
                     <div class="card fondo-card text-center">
@@ -170,8 +180,19 @@
         </section>
     </main>
 
-    <footer>
-        
+    <footer class="container-fluid mt-5">
+        <div class="row text-white text-center bg-dark pt-5">
+            <div class="col-12 fa-2x">
+                <i class="fab fa-facebook-f px-4"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram px-4"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-linkedin-in px-4"></i>
+            </div>
+            <div class="col-12 mt-3">
+                <p>&copy; 2019</p>
+            </div>
+        </div>
     </footer>
 
     <!-- Optional JavaScript -->
