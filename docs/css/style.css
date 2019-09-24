@@ -1,11 +1,3 @@
-.bg-primary{
-    background-color: #03A9F4 !important;
-}
-
-.bg-success{
-    background-color: #fc6c4c !important;
-}
-
 .header{
     background-image: url(../img/portada.jpg);
     height: 100vh;
@@ -13,7 +5,6 @@
     background-blend-mode: soft-light;
     background-position: center;
     background-attachment: fixed;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -23,7 +14,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    border-bottom: 1px dotted white !important;
+    border-bottom: 1px solid white !important;
 }
 
 .separador:after{
@@ -37,20 +28,14 @@ nav ul li a:hover{
     margin: 20px auto 0 auto;
 }
 
-
 .fondo{
     background-image: url(../img/fondo.jpg);
     height: 50vh;
-    background-color: rgba(0, 0, 0, 0.712);
     background-blend-mode: soft-light;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.438);
+    background-position: center center;
     background-size: cover;
-}
-
-.icon{
-    color: #fc6543;
+    background-attachment: fixed;
 }
 
 footer a i{
@@ -59,5 +44,9 @@ footer a i{
 }
 
 footer a i:hover{
-    color: #03A9F4;
+    color: cornflowerblue;
+}
+
+.bg-success{
+    background-color: #FC6C4C !important;
 }
